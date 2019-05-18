@@ -3,7 +3,7 @@
 
 NODES = 3
 DISKS = 3
-CACHE = false
+CACHE = true
 LIBVIRT_DISK_CACHE = "default"
 
 Vagrant.configure("2") do |config|
